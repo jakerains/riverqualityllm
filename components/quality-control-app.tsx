@@ -264,13 +264,7 @@ export default function QualityControlApp() {
                   </div>
                   <div className="bg-white bg-opacity-50 rounded-lg p-3">
                     <p className="text-sm text-gray-800">
-                      {result.status === 'quality_error' ? (
-                        <>
-                          <strong>Description:</strong> {result.message}
-                        </>
-                      ) : (
-                        result.message
-                      )}
+                      {result.message}
                     </p>
                   </div>
                 </div>
